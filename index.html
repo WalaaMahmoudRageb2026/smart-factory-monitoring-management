@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Factory Monitoring & Management System</title>
+    <link rel="icon" type="image/jpeg" href="/src/assets/images/factory_brand_icon_1788442721992.jpg" />
+    <meta name="description" content="Industrial IoT & operational management platform with production tracking, machine telemetry, fault analysis, maintenance scheduling, inventory controls, OEE metrics, and role-based security." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Smart Factory Monitoring & Management System" />
+    <meta property="og:description" content="Industrial IoT & operational management platform with production tracking, machine telemetry, fault analysis, maintenance scheduling, inventory controls, OEE metrics, and role-based security." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem('app_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+          var lang = localStorage.getItem('app_lang');
+          if (lang === 'ar') {
+            document.documentElement.setAttribute('dir', 'rtl');
+            document.documentElement.setAttribute('lang', 'ar');
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

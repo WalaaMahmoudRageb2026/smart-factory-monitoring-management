@@ -1,0 +1,6 @@
+{
+  "name": "Smart Factory Monitoring & Management System",
+  "description": "Industrial IoT & operational management platform with production tracking, machine telemetry, fault analysis, maintenance scheduling, inventory controls, OEE metrics, and role-based security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
